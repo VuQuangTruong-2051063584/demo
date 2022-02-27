@@ -1,0 +1,87 @@
+/* css for banner*/
+#banner{
+    display: flex;
+    height: 100px;
+    
+}
+#banner img{
+    width: 30%;
+    border-radius: 5px;
+}
+#banner p{
+    width: 80%;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: rgb(37, 5, 32);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#menu{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.main-menu a{
+    height: 50px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(61, 48, 48);
+    margin: 130px;
+}
+.main-menu:hover a{
+    color: rgb(0, 54, 34);
+}
+#intro-content{
+    height: 700px;
+    width: 100%;
+    background-image: linear-gradient(180deg, #4A1BD4 0%, #17C2DC 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.intro-video {
+    padding-right: 60px;
+}
+.intro-video>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+}
+.intro-text{
+    margin-bottom: 100px;
+}
+.intro-text p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: aliceblue;
+}
+.intro-text h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:30px;
+    font-weight: 500;
+    align-items: center;
+    color: rgb(83, 202, 3);
+}
+.footer{
+    height: 50px;
+    width: 100%;
+}
+.footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
